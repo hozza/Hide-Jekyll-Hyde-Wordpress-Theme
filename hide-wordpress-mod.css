@@ -1,0 +1,165 @@
+/*
+Hide Wordpress Theme Modification, by @hozza
+https://github.com/hozza/Hide-Jekyll-Hyde-Wordpress-Theme
+
+This CSS should be pasted as 'Additional CSS'
+on the default 'Twenty Fifteen' WordPress
+theme by WordPress.org.
+
+Inspired by "Hyde" theme for Jekyll.
+https://github.com/poole/hyde
+*/
+
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface&display=swap');
+
+/* Page Config */
+.site, #page {
+	max-width: none !important;
+}
+
+.site-main {
+	max-width: 50em;
+}
+
+body::before, #sidebar, .site-header, .post-navigation, .pagination, .secondary, .site-footer, .hentry, .page-header, .page-content, .comments-area, .widecolumn {
+	background-color: #1c1f26 !important;
+}
+
+.site-info {
+	display: none;
+}
+
+/* Hyde Style Bar */
+@media screen and (min-width: 59.6875em) {
+	
+	body::before, #sidebar {
+		width: 20em;
+	}
+	.site-content {
+		margin-left: 20em;
+	}
+}
+
+#sidebar {
+	bottom: 0em;
+}
+
+.site-header {
+	margin-bottom: 2em
+}
+
+.widget {
+	hyphens: none;
+	margin-bottom: 2.5em;
+}
+
+.bio {
+	font-size: 1.2em;
+	hyphens: none !important;
+}
+.bio strong, .bio a {
+	color: #FFF !important;
+	font-weight: normal;
+}
+
+/* Social */
+.social-navigation, .social-navigation ul, .social-navigation a {
+	margin: 0;
+	border: none;
+}
+.social-navigation li {
+	width: auto;
+}
+.social-navigation a::before {
+	font-size: 1.5em;	
+}
+.social-navigation a {
+	height: 1.6em;
+}
+
+/* Colors & Fonts */
+
+.site-title a {
+	font-family: "Abril Fatface", serif;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 1.49em;
+}
+body, button, input, select, textarea {
+	font-family: 'PT Sans', sans-serif;
+}
+
+body, .entry-footer {
+	background-color: #FFF !important;
+	color: #515151 !important;
+}
+
+body, blockquote cite, blockquote small {
+	color: #515151 !important;
+}
+
+.entry-content a, .entry-footer a, .dropdown-toggle:after, .image-navigation a:hover, .image-navigation a:focus, .comment-navigation a:hover, .comment-navigation a:focus, .widget-title, .entry-footer a:hover, .entry-footer a:focus, .comment-metadata a:hover, .comment-metadata a:focus, .pingback .edit-link a:hover, .pingback .edit-link a:focus, .comment-list .reply a:hover, .comment-list .reply a:focus, .site-info a:hover, .site-info a:focus {
+	color: #268bd2 !important;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+header, .entry-title a, h1, h2, h3, h4, h5, h6 {
+	color: #000 !important;
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+
+}
+
+.site-footer, .post-navigation, .pagination, .site-footer, .hentry, .page-header, .page-content, .comments-area, .widecolumn {
+	background-color: #FFF !important;
+	box-shadow: none;
+	color: #515151;
+}
+
+
+/* Articles */
+.hentry {
+	padding-top: 3em;
+}
+.entry-footer, .entry-content, .entry-summary {
+	padding: 1em 10%;
+}
+.entry-title {
+	margin-bottom: 0.3em;
+}
+
+.entry-content, .entry-summary, .page-content, .comment-content {
+	hyphens: none;
+}
+
+.entry-content strong {
+	font-weight: 600;
+}
+
+form#commentform textarea {
+	max-height: 6em !important;
+}
+
+.crayon-syntax-inline {
+	font-size: 0.8em;
+}
+
+code {
+	padding: 2px 4px;
+	border-radius: 4px;
+	background: #f3f4f5;
+}
+
+blockquote {
+	font-style: normal;
+	color: #000;
+	padding: 1.5em 2em !important;
+	margin-top: 2em !important;
+	margin-bottom: 2em !important;
+}
+
+blockquote p {
+	margin-bottom: 1em;
+}
+
