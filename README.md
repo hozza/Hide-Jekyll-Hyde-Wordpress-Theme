@@ -1,11 +1,12 @@
 # "Hide" - Jekyll & Hyde Theme, the WordPress Edition
 
-This is my WordPress Theme Edition of the "Hyde" theme - design style *strongly inspired* by the beautiful "Hyde" theme for Jekyll (another blogging software).
+This is my WordPress Theme Edition of the "Hyde" theme - design style **strongly inspired** by the beautiful "Hyde" theme for Jekyll _(another blogging software)_.
+
+![Screenshot of Hide, a Hyde theme for WordPress](https://raw.githubusercontent.com/hozza/Hide-Jekyll-Hyde-Wordpress-Theme/master/hide-wordpress-theme-screenshot.png)
 
 Original design inspiration, Hyde theme for Jekyll blog: https://github.com/poole/hyde
 
 # Installation / Usage
-
 
 ## 1. Upstream - you need the default theme 'Twenty Fifteen'.
 
