@@ -17,7 +17,7 @@ _You may already have this base theme installed depending on your version of Wor
 
 ## 2. Customise 'Twenty Fifteen' by pasting in this CSS code.
 
-Customise the Twenty Fifteen WordPress theme on your blogs login by going to 'Appearance > Customise' under the 'Additional CSS' section, paste the CSS code in the repository. 
+Customise the Twenty Fifteen WordPress theme on your blogs login by going to 'Appearance > Customise' under the 'Additional CSS' section, paste the CSS code in the file `hide-wordpress-mod.css`. 
 
 _This will modify the default Twenty Fifteen WordPress theme to look like Poole's Hyde theme for Jekyll._
 
