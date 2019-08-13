@@ -1,4 +1,4 @@
-# Jekyll & Hyde Theme - the WordPress Edition
+# "Hide" - Jekyll & Hyde Theme, the WordPress Edition
 
 This is my WordPress Theme Edition of the "Hyde" theme - design style *strongly inspired* by the beautiful "Hyde" theme for Jekyll (another blogging software).
 
@@ -6,11 +6,13 @@ Original design inspiration, Hyde theme for Jekyll blog: https://github.com/pool
 
 # Installation / Usage
 
+
 ## 1. Upstream - you need the default theme 'Twenty Fifteen'.
 
 This simple theme modification should be applied to a [default WordPress theme by WordPress.org called Twenty Fifteen](https://en-gb.wordpress.org/themes/twentyfifteen/).
 
 _You may already have this base theme installed depending on your version of WordPress - if not, install the theme "Twenty Fifteen" on your blogs login under 'Appearance > Themes > Add New'._
+
 
 ## 2. Customise 'Twenty Fifteen' by pasting in this CSS code.
 
