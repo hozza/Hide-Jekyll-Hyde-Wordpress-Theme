@@ -1,3 +1,6 @@
+> [!WARNING]
+> Migrated to Codeberg! https://codeberg.org/teatowel/Hide-Jekyll-Hyde-Wordpress-Theme
+
 # "Hide" - Jekyll & Hyde Theme, the WordPress Edition
 
 This is my WordPress Theme Edition of the "Hyde" theme - design style **strongly inspired** by the beautiful "Hyde" theme for Jekyll _(another blogging software)_.
